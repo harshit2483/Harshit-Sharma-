@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #D1D3E6;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #FCFCFC;
+    padding: 40px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    border-radius: 12px;
+    text-align: center;
+    width: 80%;
+    max-width: 600px;
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 2em;
+    color: #695AA6;
+}
+
+.contact-info {
+    text-align: left;
+    color: #6C757D;  /* Updated text color */
+}
+
+.contact-info p {
+    margin: 10px 0;
+    font-size: 1.1em;
+}
+
+@media (max-width: 600px) {
+    .container {
+        width: 90%;
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 1.5em;
+    }
+
+    .contact-info p {
+        font-size: 1em;
+    }
+}
